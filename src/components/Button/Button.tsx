@@ -16,7 +16,7 @@ const Button: React.FC<ButtonProps> = ({ variant, ...props }) => {
 
   return (
     <button {...props} style={styles()}>
-      {props.children}
+      {props.children} hello
     </button>
   );
 };
