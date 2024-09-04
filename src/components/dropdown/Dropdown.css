@@ -1,0 +1,71 @@
+.select_main_container .dropdown{
+    background-color: transparent;
+    font-size: var(--fs16);
+    border-radius: 8px;
+    width: 100%;
+    padding: 5px;
+    border: 2px solid rgba(0,0,0,0.6);
+    min-width: 200px;
+    background-image: url(../../assets/images/dropicon.png);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 12px;
+}
+.main_select{
+    position: relative;
+
+}
+.placeholder_text{
+    position: absolute;
+    top: 25%;
+    color: rgba(0,0,0,0.5);
+    text-transform: capitalize;
+    left: 5%;
+}
+.select_main_container .dropdown.success{
+    border: 2px solid green;
+}
+.select_main_container .dropdown.error{
+    border: 2px solid red;
+}
+.select_main_container .dropdown.warning{
+    border: 2px solid #F2C94C
+}
+.message{
+    margin: 0;
+}
+.message.success{
+    color: green;
+}
+.message.error{
+    color:  red;
+}
+.message.warning{
+    color: #F2C94C
+}
+.label{
+    margin: 0;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+.select_main_container .css-15k6ek6-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 0 ;
+}
+
+/* Drop icon */
+.select_main_container .css-1u6jos5-MuiSvgIcon-root-MuiSelect-icon,.select_main_container .css-r4d5p-MuiSvgIcon-root-MuiSelect-icon{
+    display: none;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.Mui-focused.dropdown.css-1cprn2g-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+    /* border: 1px solid transparent; */
+}
+.select_main_container fieldset{
+    display: none;
+
+   
+}
+
+
+
+
